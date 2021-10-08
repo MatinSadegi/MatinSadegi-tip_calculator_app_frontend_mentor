@@ -1,0 +1,66 @@
+
+.right_div{
+  width: 45%;
+  background-color: hsl(183, 100%, 15%);
+  border-radius: 10px;
+  padding: 30px 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.numbers{
+  font-size: 40px;
+  color:  hsl(172, 67%, 45%);
+  font-weight: 700;
+}
+
+.tip_amount_div, .total_div{
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  display: flex;
+  align-items: center;
+}
+
+.tip_amount_div p span, .total_div p span{
+  font-size: 14px;
+  color: hsl(184, 14%, 56%);
+}
+
+.total_div{
+  margin-top: 40px;
+}
+
+.right_div button{
+  background-color: hsl(172, 67%, 45%);
+  border: none;
+  border-radius: 5px;
+  padding: 10px 0px;
+  color: hsl(183, 100%, 15%);
+  font-size: 18px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.right_div button:hover{
+  background-color: hsl(174, 85%, 55%);
+}
+
+@media screen and (max-width: 1200px){
+  .right_div{
+    width: 100%;
+    display: flex;
+    justify-content: start;
+    margin-top: 30px;
+    padding: 30px 20px;
+  }
+
+  .right_div button{
+    margin-top: 20px;
+  }
+
+  .total_div{
+  margin-top: 20px;
+}
+}
